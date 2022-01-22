@@ -12,6 +12,8 @@ let endIndex = 0
 
 
 function load(text) {
+    // textOutput.style.fontSize = "1em";
+    textOutput.style.fontSize = `min(${20 / wordsShown}vw, 20vh)`;
     console.log(text)
     wordIndex = 0;
     split = text.split(' ');
